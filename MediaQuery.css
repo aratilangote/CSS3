@@ -1,0 +1,24 @@
+div{
+    border: 1px solid;
+}
+#parent{
+    display: flex;
+    min-height: 500px;
+}
+#parent>div{
+    flex-grow: 1;
+    font-size: 50px;
+}
+@media only screen and (min-width:601px) and (max-width:800px){
+    #parent>div{
+        min-width: 45%;
+    }
+    #parent{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:600px){
+    #parent{
+        flex-direction: column;
+    }
+}

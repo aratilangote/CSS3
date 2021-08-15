@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    font-size: 60px;
+    background-color: orchid;
+    padding: 70px;
+    text-transform: uppercase;
+}
+section{
+    display: flex;
+}
+section>div, div>div{
+    border: 1px solid;
+}
+#sidebar{
+    height: 500px;
+    flex-grow: 1;
+}
+#items{
+    height: 500px;
+    flex-grow: 5;
+}
+#sidebar>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid slateblue;
+}
+.prod{
+    height: 200px;
+    max-width: 300px;
+    flex-grow: 1;
+}
+#mobile, #laptop{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

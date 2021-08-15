@@ -1,0 +1,21 @@
+div{
+    border: 1px solid;
+}
+#parent{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 700px;
+}
+#parent>div{
+    flex: 1;
+    background-color: chocolate;
+    font-size: 40px;
+    padding: 30px;
+    margin: auto;
+    justify-content: center;
+    justify-items: center; 
+    /* align-items: center; */
+    flex-wrap: wrap;
+}

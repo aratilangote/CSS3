@@ -1,0 +1,18 @@
+h1{
+    border: 1px solid red;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+h2{
+    border: 1px solid purple;
+    width: 300px;
+    margin: 20px 40px;
+}
+h3{
+    border: 1px solid black;
+    width: 300px;
+    margin: 40px;
+}

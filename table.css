@@ -1,0 +1,21 @@
+body{
+    background-color: cornsilk;
+}
+table, th, td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+}
+table{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+th{
+    background-color: aqua;
+}
+td{
+    background-color: aquamarine;
+}
+td:hover{
+    background-color: darkcyan;
+}

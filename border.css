@@ -1,0 +1,15 @@
+body{
+    background-color: pink;
+}
+h1{
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+}
+h2{
+    border: 2px dotted red;
+}
+h3{
+    border: 1px dashed blue ;
+    border-radius: 10px;
+}

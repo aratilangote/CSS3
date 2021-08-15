@@ -1,0 +1,15 @@
+h1{
+    border: 1px solid rgb(196, 28, 154);
+    width: 400px;
+    margin: 40px;
+    padding: 30px;
+}
+
+/* To calculate width of box */
+h2{
+    margin: 50px;                       /* 2*50 */
+    border: 1px dotted blueviolet;    /* 2*1 */
+    padding: 10px;                      /* 2*10 */
+    width: 150px;                       /* 150 */
+                                        /* = 262 */
+}

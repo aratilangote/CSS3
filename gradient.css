@@ -1,0 +1,16 @@
+#d1{
+    background-image: linear-gradient(red, orange, yellow);
+    border: 1px solid black;
+    display: flex;
+    height: 500px;
+}
+h4{
+    text-align: center;
+    padding: 50px;
+}
+#d2{
+    border: 2px solid black;
+    height: 200px;
+    background-image: radial-gradient(rgb(253, 6, 158), blue, black);
+    
+}

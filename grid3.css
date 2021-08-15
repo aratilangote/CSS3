@@ -1,0 +1,37 @@
+section{
+    display: grid;
+    grid-template-areas: 'a a b d''a a c d''e g h h''f g h h';
+    grid-gap: 10px;
+}
+#a{
+    grid-area: a;
+    border: 1px solid blue;
+}
+#b{
+    grid-area: b;
+    border: 1px dotted black;
+}
+#c{
+    grid-area: c;
+    border: 1px dotted black;
+}
+#d{
+    grid-area: d;
+    border: 1px dashed red;
+}
+#e{
+    grid-area: e;
+    border: 1px dotted black;
+}
+#f{
+    grid-area: f;
+    border: 1px dotted black;
+}
+#g{
+    grid-area: g;
+    border: 1px dashed red;
+}
+#h{
+    grid-area: h;
+    border: 1px solid blue;
+}

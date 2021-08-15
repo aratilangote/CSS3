@@ -1,0 +1,29 @@
+        /* Tag Selector */
+        h1{
+            color: black;
+            text-align: center;
+        }
+
+        /* id selector */
+        #head{
+            color: pink;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        .selector{
+            color: blue;
+            text-align: center;
+        }
+
+        /* Child selector */
+        div>h4{
+            color: crimson;
+            text-align: center;
+        }
+
+        /* Desendent selector */
+        div h5{
+            color: cyan;
+            text-align: center;
+        }

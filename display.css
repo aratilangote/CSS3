@@ -1,0 +1,36 @@
+div{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#d2{
+    visibility: none;
+}
+#dd{
+    
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+#d{
+    background-image: linear-gradient(yellow, orange, red);
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+#a1{
+    display: inline;
+    height: 200px;
+    width: 200px;
+}
+#a2{
+    background-image: linear-gradient( rgb(255,255,0) );
+    display: inline;
+    height: 200px;
+    width: 200px;
+}
+h1{
+    background-image: linear-gradient( black, blue, rgb(240, 15, 128));
+    opacity: 0.8;
+}

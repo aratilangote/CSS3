@@ -1,0 +1,15 @@
+#head1{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+#head2{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+}
+span{
+    display:contents;
+}

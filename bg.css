@@ -1,0 +1,31 @@
+body{
+    background-color: deeppink;
+    background-image: url(../Images/OIP.jfif);
+    background-repeat: no-repeat;
+    /*
+        repeat(default)
+        no-repeat
+        repeat-x
+        repeat-y
+    */
+    background-position: center;
+    /*
+        center
+        left
+        right
+        top
+        bottom
+    */
+    background-size: contain;
+    /*
+        Auto
+        contain
+        cover
+        custome as 200px
+    */
+    background-attachment: scroll;
+    /*
+        fixed
+        scroll(default)
+    */
+}

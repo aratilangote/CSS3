@@ -1,0 +1,11 @@
+h1{
+    border: 1px solid black;
+    width: 400px;
+    margin: 30px;
+    padding: 10px 30px 50px 70px;
+}
+h2{
+    border: 1px solid red;
+    width: 250px;
+    padding: 30px;
+}

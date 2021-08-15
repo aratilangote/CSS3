@@ -1,0 +1,14 @@
+div{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+
+    transition-property: width height;
+    transition-duration: 2s;
+    /*transition-delay: 2s;*/
+    transition-timing-function: ease-in-out;
+    transition-timing-function: steps(10);
+}
+div:hover{
+    width: 300px;
+}

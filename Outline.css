@@ -1,0 +1,12 @@
+body{
+    border: 3px solid black; 
+    height: 500px;
+    border-style: double;
+}
+.box{
+    background-color: #eee;  
+    outline: 3px solid red;  /* same as border */
+    height: 100px;
+    padding: 5px 10px;  
+    border-style: double;
+}

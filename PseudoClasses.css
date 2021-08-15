@@ -1,0 +1,21 @@
+a{
+    border: 1px double purple;
+    text-decoration: none;
+    padding: 3px;
+    background-color: silver;
+    color: gold;
+}
+
+/* tag : hover class */
+/* hover class : is used for selecting an element */ 
+a:hover{
+    border-width: 5px;
+}
+/*To style the active links*/
+a:active{
+    background-color: lightskyblue;
+}
+/*To style the visited link for visited pages*/
+a:visited{
+    color: linen;
+}

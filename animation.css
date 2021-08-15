@@ -1,0 +1,43 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    animation-name: Demo;
+    animation-duration: 2s;
+    /*animation-iteration-count: 4;
+    animation-delay: 2s;
+    animation-direction: alternate;*/
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+/*
+@keyframes Demo{
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+    }
+}
+*/
+@keyframes Demo{
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: cadetblue;
+        width: 300px;
+        height: 300px;
+    }
+    75%{
+        background-color: darkcyan;
+    }
+    100%{
+        background-color: darkgreen;
+    }
+}
